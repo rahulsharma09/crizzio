@@ -1,0 +1,12 @@
+.home-image{
+    width: 70%;
+    /* height: 50%; */
+}
+.gn-img{
+    display: flex;
+    align-items: center;
+}
+.text-col{
+    display: flex;
+    align-items: center;
+}

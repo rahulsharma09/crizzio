@@ -1,0 +1,43 @@
+.text-col{
+    margin-top: 10%;
+    height: 100vh;
+}
+body{
+    background-color: #f8f7f7;
+}
+.c-img{
+    width: 65%!important;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.img-col{
+    display: flex;
+    align-items: center;
+}
+section{
+    padding: 40px;
+    padding-bottom: 0px!important;
+}
+.shop-now{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.shop-now img{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.products img{
+    width: 30%;
+    border-radius: 15px;
+}
+.brand-logo{
+    padding-left: 20px!important;
+}
