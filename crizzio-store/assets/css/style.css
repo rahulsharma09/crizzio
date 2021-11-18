@@ -130,6 +130,20 @@ nav{
     margin-bottom: 0px!important;
     padding-bottom: 0px!important;
 }
+.contact-us{
+    width: 100%;
+    height: 320px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+input,select{
+    border: 1.5px solid grey!important;
+}
+textarea{
+    border: 1.5px solid grey!important;
+}
 @media only screen and (min-width: 320px) and (max-width: 500px){
     .text-col{
         height: 50%!important;
@@ -140,6 +154,33 @@ nav{
         text-align: center;
     }
     .text-col p{
-        text-align: center;
+         text-align: center;
+    }
+    .sec-top h1{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .sec-top a h5{
+        font-size: 15px;
+    }
+    .container{
+        padding: 0px!important;
+    }
+    .container h1{
+        font-size: 22px;
+    }
+    .display-prod{
+        display: block;
+        flex-direction: column;
+    }
+    .prod-card{
+        width: 100%;
+    }
+    .display-image{
+        display: flex;
+        margin: auto;
+    }
+    section{
+        padding: 20px;
     }
 }
